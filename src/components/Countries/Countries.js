@@ -18,7 +18,7 @@ const Countries = () => {
 
     return (
         <div>
-            <h1> Available Countries: {countries.length} </h1>
+            <h1> Available countries in the world : {countries.length} </h1>
             <div className="countries-container">
                 {
                     countries.map(country => <Country 
